@@ -1,26 +1,49 @@
-# Lab 01 – Entra ID Basics / User Onboarding
+# Lab 01 – Entra ID User, Group & Role Management
 
-## Objective
-Create and configure user accounts in Microsoft Entra ID to simulate basic identity onboarding.
+## 🎯 Objective
+Simulate onboarding users across different departments and managing access using security groups and role-based access control (RBAC) in Microsoft Entra ID.
 
-## Environment
-- Platform: Microsoft Entra ID (Azure AD)
-- Users:
-  - John IT
-  - Gary Finance
+---
 
-## What I Did
-- Created two users in Entra ID
-- Configured user profile properties
-- Verified successful account creation
+## 🧑‍💻 Users Created
+Created multiple users to represent different departments:
+- John IT
+- Jessica Sales
 
-## Key Concepts
-- Identity creation
-- User lifecycle management
-- Directory services
+![Users Created](screenshots/users-created.png)
 
-## Screenshots
-(Add screenshots of user creation and properties)
+---
 
-## Outcome
-Successfully created and verified user accounts within Entra ID.
+## 👥 Security Groups Created
+Created security groups to simulate department-based access:
+- IT Group
+- Sales Group
+
+![Groups Created](screenshots/groups-created.png)
+
+---
+
+## 🔗 User-to-Group Assignment
+Assigned users to their respective groups to enable group-based access control:
+- John IT → IT Group  
+- Jessica Sales → Sales Group  
+
+![User Added to Group](screenshots/user-added-to-group.png)
+
+---
+
+## 🔐 Role Assignment (RBAC)
+Assigned administrative role to simulate IT privileges:
+- John IT → User Administrator  
+
+![Role Assignment Page](screenshots/role-assignment.png)
+
+![User Role Assigned](screenshots/role-assignment-user.png)
+
+---
+
+## ✅ Outcome
+- Created and managed user identities in Microsoft Entra ID  
+- Implemented access control using security groups  
+- Applied Role-Based Access Control (RBAC) using least privilege principles  
+- Simulated a real-world IAM onboarding workflow  
