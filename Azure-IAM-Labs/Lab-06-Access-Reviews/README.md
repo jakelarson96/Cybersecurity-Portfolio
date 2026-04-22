@@ -1,27 +1,24 @@
 # Lab 06 – Access Reviews
 
 ## Objective
-Review and validate user access for compliance and governance.
+Implement access reviews to validate and maintain proper group membership.
 
-## Environment
-- Group:
-  - Finance Group
-- User:
-  - Gary Finance
+---
 
-## What I Did
-- Created access review for Finance Group
-- Reviewed user access
-- Configured scope for all users
-- Observed review results
+## Access Review Created
+Created an access review for:
+- Finance Group  
 
-## Key Concepts
-- Identity governance
-- Access reviews
-- Compliance validation
+Status:
+- Not Started  
 
-## Screenshots
-(Add access review screenshots)
+Screenshot:
+![Access Review Page](screenshots/access-review-created.png)
+<img width="3824" height="2168" alt="access-review-created" src="https://github.com/user-attachments/assets/5a8a3f6d-912e-4a95-90a8-fa953400add4" />
+
+---
 
 ## Outcome
-Successfully evaluated and validated user access permissions.
+- Configured access reviews for governance  
+- Demonstrated periodic access validation  
+- Reinforced least privilege principles  
