@@ -1,25 +1,21 @@
-# Lab 08 – Blocking Legacy Authentication
+# Lab 08 – Sign-In Monitoring
 
 ## Objective
-Improve security by blocking legacy authentication protocols.
+Monitor user authentication activity using Azure sign-in logs.
 
-## Environment
-- Users:
-  - John IT
-  - Gary Finance
+---
 
-## What I Did
-- Created Conditional Access policy to block legacy authentication
-- Applied policy to users
-- Verified enforcement
+## Sign-In Logs
+Observed successful login activity for:
+- John IT  
 
-## Key Concepts
-- Legacy authentication risks
-- Conditional Access
-- Security hardening
+Screenshot:
+![Sign-In Logs](screenshots/sign-in-logs.png)
+<img width="3839" height="2164" alt="sign-in-logs-success" src="https://github.com/user-attachments/assets/5dfbe940-e68f-471b-8954-7a20e96d4bb3" />
 
-## Screenshots
-(Add policy screenshots)
+---
 
 ## Outcome
-Successfully blocked insecure authentication methods.
+- Monitored authentication events  
+- Verified successful user login activity  
+- Demonstrated visibility into identity activity  
