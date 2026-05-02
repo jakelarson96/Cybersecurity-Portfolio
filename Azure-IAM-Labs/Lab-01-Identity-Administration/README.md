@@ -1,11 +1,11 @@
 # Lab 01 – Entra ID User, Group & Role Management
 
-## 🎯 Objective
+## Objective
 Simulate onboarding users across different departments and managing access using security groups and role-based access control (RBAC) in Microsoft Entra ID.
 
 ---
 
-## 🧑‍💻 Users Created
+## Users Created
 Created multiple users to represent different departments:
 - John IT
 - Jessica Sales
@@ -17,7 +17,7 @@ Created multiple users to represent different departments:
 
 ---
 
-## 👥 Security Groups Created
+## Security Groups Created
 Created security groups to simulate department-based access:
 - IT Group
 - Sales Group
@@ -29,7 +29,7 @@ Created security groups to simulate department-based access:
 
 ---
 
-## 🔗 User-to-Group Assignment
+## User-to-Group Assignment
 Assigned users to their respective groups to enable group-based access control:
 - John IT → IT Group  
 - Jessica Sales → Sales Group
@@ -41,7 +41,7 @@ Assigned users to their respective groups to enable group-based access control:
 
 ---
 
-## 🔐 Role Assignment (RBAC)
+## Role Assignment (RBAC)
 Assigned administrative role to simulate IT privileges:
 - John IT → User Administrator  
 
@@ -53,7 +53,7 @@ Assigned administrative role to simulate IT privileges:
 
 ---
 
-## ✅ Outcome
+## Outcome
 - Created and managed user identities in Microsoft Entra ID  
 - Implemented access control using security groups  
 - Applied Role-Based Access Control (RBAC) using least privilege principles  
